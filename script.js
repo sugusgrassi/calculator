@@ -16,12 +16,12 @@ function calculator() {
 
     buttonre.addEventListener("click", function(){
     if(dolarOficialComa && cuantoCompramosComa && aCuantoVendemosComa) {
-    document.getElementById("dolarOficialComa").innerHTML = "El dolar oficial está " + dolarOficialComa;
-    document.getElementById("pesosArgAVender").innerHTML = "Vendemos " + pesosArgAVender + " pesos argentinos al banco";
-    document.getElementById("cuantoCompramosComa").innerHTML = "Compramos " + cuantoCompramosComa;
+    document.getElementById("dolarOficialComa").innerHTML = "El dolar oficial + impuestos está " + dolarOficialComa;
+    document.getElementById("pesosArgAVender").innerHTML = "Se venden " + pesosArgAVender + " pesos argentinos al banco";
+    document.getElementById("cuantoCompramosComa").innerHTML = "Se compran " + cuantoCompramosComa;
     document.getElementById("aCuantoVendemosComa").innerHTML = "El dolares blue está " + aCuantoVendemosComa;
-    document.getElementById("pesosArgAComprar").innerHTML = "Si vendiéramos al blue cobraríamos " + pesosArgAComprar;
-    document.getElementById("resultado").innerHTML = "Ganamos " + ganancia;
+    document.getElementById("pesosArgAComprar").innerHTML = "Al vender al blue se cobraría " + pesosArgAComprar;
+    document.getElementById("resultado").innerHTML = "Ganancia: " + ganancia;
 
     return ganancia;
 }
